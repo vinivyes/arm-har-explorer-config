@@ -16,7 +16,7 @@ The payload is composed by an array which contains several objects, each defines
 To create an alias, you can add a new object to the *requestAliases* or *responseAliases* arrays depending on where this information can be found.
 
 The following properties are part of the alias object syntax:
-- *aliasName*: Here you can give a name to the Alias, this will be used when trying to load the information in the application. The syntax follows somewhat the Azure Policy Syntax: <PATH>/<Friendly Name of child Property>/<Friendly Name of next child Property>/...
+- *aliasName*: Here you can give a name to the Alias, this will be used when trying to load the information in the application. The syntax follows somewhat the Azure Policy Syntax: PATH/Friendly Name of child Property/Friendly Name of next child Property/...
 - *path*: Where the value will be extracted from, please refer to the examples below:
     Give the following request:
       {
