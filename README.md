@@ -34,4 +34,6 @@ The following properties are part of the alias object syntax:
       }
   The Path we can use to extract the header *someHeader* is the following: ***request.headers.someHeader***, the application will expand the object and return the value found on the path specified.
 - *displayName*: Name this alias with a friendly name based on the value it returns
+- *colSpan*: How much space does the value of this alias take to be viewed, this will be linked to Bootstrap's col property. Use values between 1 and 12.
+- *displayType*: What type of field should be used to display this property. You can use *input* or *textarea*
 - *conditions*: Work in progress, this might be a feature on the future to allow displaying aliases based on certain conditions.
