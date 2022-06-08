@@ -9,9 +9,7 @@ to a Log Entry which is a Request/Response pair.
 
 #### Syntax
 
-In the payload you will find an object with 2 arrays:
-- *requestAliases*: This array will contain Aliases that can be found in the Request portion of an *entry*
-- *responseAliases*: This array will contain Aliases that can be found in the Response portion of an *entry*
+The payload is composed by an array which contains several objects, each defines one alias and allow access to the value of one property.
 
 ##### Creating Aliases
 
@@ -34,6 +32,6 @@ The following properties are part of the alias object syntax:
           ...
         }
       }
-  The Path we can use to extract the header *someHeader* is the following: ***headers.someHeader***, the application will expand the object and return the value found on the path specified. Keep in mind the path starts on *request* or *response* depending on which array (*requestAliases* or *responseAliases*) the alias is placed.
+  The Path we can use to extract the header *someHeader* is the following: ***request.headers.someHeader***, the application will expand the object and return the value found on the path specified.
 - *displayName*: Name this alias with a friendly name based on the value it returns
 - *conditions*: Work in progress, this might be a feature on the future to allow displaying aliases based on certain conditions.
