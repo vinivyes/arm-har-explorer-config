@@ -3,6 +3,8 @@
     "aliasName":"Request/TargetURI",
     "path":"request.targetURI",
     "displayName":"Target URI",
+    "displayType":"textarea",
+    "minColSpan":12,
     "conditions":[
     ]
   },
@@ -10,6 +12,8 @@
     "aliasName":"Request/Header/ClientSessionId",
     "path":"request.headers.x-ms-client-session-id",
     "displayName":"Client Session ID",
+    "displayType":"input",
+    "minColSpan":6,
     "conditions":[
     ]
   },
@@ -17,6 +21,8 @@
     "aliasName":"Response/Header/CorrelationId",
     "path":"response.headers.x-ms-correlation-request-id",
     "displayName":"Correlation ID",
+    "displayType":"input",
+    "minColSpan":6,
     "conditions":[
     ]
   },
@@ -24,6 +30,8 @@
     "aliasName":"Response/Header/RoutingID",
     "path":"response.headers.x-ms-routing-request-id",
     "displayName":"Routing ID",
+    "displayType":"input",
+    "minColSpan":6,
     "conditions":[
     ]
   },
@@ -31,6 +39,8 @@
     "aliasName":"Response/Header/RateLimit/Tenant/Reads",
     "path":"response.headers.x-ms-ratelimit-remaining-tenant-reads",
     "displayName":"Rate Limiting - Tenant Reads",
+    "displayType":"input",
+    "minColSpan":6,
     "conditions":[
     ]
   },
@@ -38,6 +48,8 @@
     "aliasName":"Response/Header/RateLimit/Subscription/Reads",
     "path":"response.headers.x-ms-ratelimit-remaining-subscription-reads",
     "displayName":"Rate Limiting - Subscription Reads",
+    "displayType":"input",
+    "minColSpan":6,
     "conditions":[
     ]
   }
