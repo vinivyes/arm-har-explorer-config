@@ -1,0 +1,48 @@
+{
+  "requestAliases":[
+    {
+      "aliasName":"TargetURI",
+      "path":"targetURI",
+      "displayName":"Target URI",
+      "conditions":[
+      ]
+    },
+    {
+      "aliasName":"Header/ClientSessionId",
+      "path":"headers.x-ms-client-session-id",
+      "displayName":"Client Session ID",
+      "conditions":[
+      ]
+    }
+  ],
+  "responseAliases":[
+    {
+      "aliasName":"Header/CorrelationId",
+      "path":"headers.x-ms-correlation-request-id",
+      "displayName":"Correlation ID",
+      "conditions":[
+      ]
+    },
+    {
+      "aliasName":"Header/RoutingID",
+      "path":"headers.x-ms-routing-request-id",
+      "displayName":"Routing ID",
+      "conditions":[
+      ]
+    },
+    {
+      "aliasName":"Header/RateLimit/Tenant/Reads",
+      "path":"headers.x-ms-ratelimit-remaining-tenant-reads",
+      "displayName":"Rate Limiting - Tenant Reads",
+      "conditions":[
+      ]
+    },
+    {
+      "aliasName":"Header/RateLimit/Subscription/Reads",
+      "path":"headers.x-ms-ratelimit-remaining-subscription-reads",
+      "displayName":"Rate Limiting - Subscription Reads",
+      "conditions":[
+      ]
+    }
+  ]
+}
