@@ -1,0 +1,17 @@
+{
+      "displayName":"ARM",
+      "urlPrefix":[
+            "https://management.azure.com/*",
+            "https://*.management.azure.com/*",
+            "https://management.usgovcloudapi.net/*",
+            "https://management.chinacloudapi.cn/*"
+      ],
+      "activeAliases":[
+            "Request/TargetURI",
+            "Request/Header/ClientSessionId",
+            "Response/Header/CorrelationId",
+            "Response/Header/RoutingID",
+            "Response/Header/RateLimit/Tenant/Reads",
+            "Response/Header/RateLimit/Subscription/Reads"
+      ]
+}
