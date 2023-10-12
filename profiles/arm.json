@@ -3,6 +3,7 @@
       "urlPrefix":[
             "https://management.azure.com/*",
             "https://*.management.azure.com/*",
+            "https://edge.management.azure.com/*",
             "https://management.usgovcloudapi.net/*",
             "https://management.chinacloudapi.cn/*"
       ],
